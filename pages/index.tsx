@@ -1,8 +1,8 @@
-import Head from "next/head";
-import Link from "next/link";
-import Navbar from "../components/navbar";
+import Head from 'next/head'
+import Navbar from '../components/navbar'
+import { ReactElement } from 'react'
 
-export default function Home() {
+export default function Home(): ReactElement {
   return (
     <div className="container">
       <Head>
@@ -16,5 +16,5 @@ export default function Home() {
         <h1 className="title">Are you ready to rock 2021?</h1>
       </div>
     </div>
-  );
+  )
 }
