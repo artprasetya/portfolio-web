@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import { ReactElement } from 'react'
+// import { ReactElement } from 'react'
 
-export default function Navbar(): ReactElement {
+export default function Navbar() {
   const url = 'https://www.linkedin.com/in/artprasetya/'
   return (
     <nav className="navbar">
